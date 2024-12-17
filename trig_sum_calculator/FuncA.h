@@ -10,7 +10,7 @@ public:
     FuncA(); 
     ~FuncA(); 
     void AddString(const std::string& str); 
-    void ShowText() const; 
+    void ShowText(double x) const; 
 private:
     std::vector<std::string> a;
 };

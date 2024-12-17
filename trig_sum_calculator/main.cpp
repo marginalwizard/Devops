@@ -1,10 +1,14 @@
 #include "FuncA.h"
+#include <iostream>
 
 int main()
 {
     FuncA func; 
-    func.AddString("First string");
-    func.AddString("Second string");
-    func.ShowText(); // Виводимо результат
+    double x;
+ 
+    std::cout << "Enter the value of x: ";
+    std::cin >> x;
+
+    func.ShowText(x); // Виводимо результат
     return 0; 
 }
